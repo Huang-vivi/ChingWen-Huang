@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.post {
+  width: 600px;
+  height: 900px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#quote-1 {
+  background-color: seashell;
+  background-image: url('/static/images/bg1.png');
+  text-align: center;
+  font-size: 96px;
+  /* font-family: "Averia Serif Libre", serif; */
+  /* font-weight: 400;
+  font-style: normal; */
+  margin: 20px;
+  border: #034A84 15px groove ;
+}
+
+#quote-1 h1 {
+  font-family: "Red Rose", serif;
+  font-size: 40px;
+  color:#034A84;
+  padding-right: 350px;
+  /* text-align: start; */
+}
+
+#quote-1 h2 {
+  font-family: "Aclonica", serif;
+  color:#034A84;
+  padding: 10px 70px 0 0;
+}
+
+#quote-1 h3 {
+  font-family: "Aclonica", serif;
+  color: seashell;
+  background-color: #034A84;
+  padding: 10px 40px;
+  margin-top: 35px;
+}
+
+#quote-1 p {
+  font-family: "Sofia", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  /* margin: 20px 0; */
+}
+
+.run-1 {
+  padding-right: 250px;
+  color: rgba(2, 93, 168);
+}
+
+.run-2 {
+  padding-right: 125px;
+  color: rgba(2, 93, 168, 0.8);
+}
+
+.run-3 {
+  padding-right: 0px;
+  color: rgba(2, 93, 168, 0.6);
+}
+
+.run-4 {
+  padding-left: 125px;
+  color: rgba(2, 93, 168, 0.4);
+}
+
+.run-5 {
+  padding-left: 250px;
+  color: rgba(2, 93, 168, 0.2);
+}
+
+#quote-2 {
+  background-color: #FC481A;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: cornsilk;
+  margin: 50px;
+  padding: 50px auto;
+  border: double 5px #ffab96;
+}
+
+#quote-2 h1 {
+  font-size: 32px;
+  padding: 70px 0px;
+}
+
+.border {
+  border: #F6FBFF solid 4px;
+  padding: 70px 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.play{
+  width: 300px;
+  height: 300px;
+  background-image: url("/static/images/bg2.png");
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play:hover{
+color: #034A84;
+}
+
+.play p{
+  font-size: 46px;
+  padding-left: 30px
+}
